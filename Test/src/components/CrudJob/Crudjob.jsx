@@ -57,8 +57,8 @@ const Crudjob = () => {
                         {jobs.map((item, index) => (
                             <tr key={index}>
                                 <td>{index}</td>
-                                <td><img src={item.name} alt="" /></td>
-                                <td>{item.image}</td>
+                                <td><img src={item.image} alt="" /></td>
+                                <td>{item.name}</td>
                                 <td>{item.describe}</td>
                                 <td>
                                     <button onClick={deleteJobs}>xóa</button>
