@@ -57,7 +57,7 @@ const Crudjob = () => {
                         {jobs.map((item, index) => (
                             <tr key={index}>
                                 <td>{index}</td>
-                                <td>{item.name}</td>
+                                <td><img src={item.name} alt="" /></td>
                                 <td>{item.image}</td>
                                 <td>{item.describe}</td>
                                 <td>
