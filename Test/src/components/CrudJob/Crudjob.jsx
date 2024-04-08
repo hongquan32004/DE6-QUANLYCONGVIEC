@@ -39,7 +39,6 @@ const Crudjob = () => {
                 <input type="text" value={describe} onChange={(e) => setDescribe(e.target.value)} placeholder="Mô tả..." />
                 <br />
                 <button onClick={addJobs}>Thêm</button>
-                <button >Sửa</button>
                 <button onClick={deleteJobs}>Xóa</button>
             </form>}
             <div className="job-table">
